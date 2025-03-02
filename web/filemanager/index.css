@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+* {
+	font-family: "Tektur", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+}
+body {
+	background-color: #1e1e1e;
+	font-family: "Tektur", sans-serif;
+	color: #00ff00; /* Electric green */
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+}
+h1, h2 {
+	color: #00ff00; /* Electric green */
+}
+a {
+	color: #00ff00; /* Electric green */
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+button, input {
+	color: #fff;
+	background-color: #363636;
+}
+.message {
+	background-color: #333;
+	color: #00ff00;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #00ff00;
+}
+.file-list {
+	list-style-type: none;
+	padding: 0;
+}
+.file-list li {
+	margin: 5px 0;
+}
+.upload-form {
+	margin-bottom: 20px;
+}
+.upload-form input[type="file"] {
+	margin-right: 10px;
+}
