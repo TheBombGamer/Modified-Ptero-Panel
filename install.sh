@@ -63,7 +63,7 @@ if [ "$(id -u)" != "0" ]; then
     esac
 fi
 
-# Check if user running on a supported OS
+
 if [ "$(uname -s)" == "Linux" ]; then
     echo 'Supported OS YAY!' | tee -a $LOG_FILE
     OS_SUPPORTED=true
